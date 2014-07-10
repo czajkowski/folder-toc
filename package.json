@@ -1,0 +1,26 @@
+{
+  "name": "file-browser",
+  "version": "0.0.1",
+  "description": "Creates an HTML table of content with links to files from a selected directory.",
+  "keywords": [
+    "file browser",
+    "table of content"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Czajkowski"
+  },
+  "main": "./index.js",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "glob": "~4.0.3",
+    "fs-extra": "~0.10.0"
+  }
+}
