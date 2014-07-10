@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/czajkowski/folder-toc",
   "dependencies": {
-    "underscore": "~1.5.2",
-    "glob": "~4.0.3",
-    "fs-extra": "~0.10.0"
+    "underscore": ">=1.6.0",
+    "glob": ">=4.0.3",
+    "fs-extra": ">=0.10.0"
   },
   "main": "./folder-toc",
   "bin": {
