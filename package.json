@@ -30,10 +30,6 @@
     "glob": ">=4.0.3",
     "fs-extra": ">=0.10.0"
   },
-  "main": "./folder-toc",
-  "bin": {
-    "folder-toc": "./bin/folder-toc"
-  },
   "engines": {
     "node": ">=0.10.0"
   }
