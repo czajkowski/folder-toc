@@ -33,5 +33,8 @@
   "main": "./folder-toc",
   "bin": {
     "folder-toc": "./bin/folder-toc"
-  }  
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }
