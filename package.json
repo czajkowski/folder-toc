@@ -1,26 +1,37 @@
 {
-  "name": "file-browser",
+  "name": "folder-toc",
   "version": "0.0.1",
   "description": "Creates an HTML table of content with links to files from a selected directory.",
-  "keywords": [
-    "file browser",
-    "table of content"
-  ],
-  "license": "MIT",
-  "author": {
-    "name": "Piotr Czajkowski"
-  },
-  "main": "./index.js",
-"scripts": {
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/czajkowski/folder-toc.git"
   },
+  "keywords": [
+    "file",
+    "browser",
+    "table",
+    "of",
+    "content"
+  ],
+  "author": {
+    "name": "Piotr Czajkowski"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czajkowski/folder-toc/issues"
+  },
+  "homepage": "https://github.com/czajkowski/folder-toc",
   "dependencies": {
     "underscore": "~1.5.2",
     "glob": "~4.0.3",
     "fs-extra": "~0.10.0"
-  }
+  },
+  "main": "./folder-toc",
+  "bin": {
+    "folder-toc": "./bin/folder-toc"
+  }  
 }
