@@ -4,7 +4,7 @@
   "description": "Creates an HTML table of content with links to files from a selected directory.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "node example/index.js"
   },
   "repository": {
     "type": "git",

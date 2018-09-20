@@ -1,0 +1,74 @@
+/*--------------------- Layout and Typography ----------------------------*/
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 130%;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    color: #FFF;
+}
+
+h1
+{
+    margin-bottom: 20px;
+}
+
+.file-index
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    overflow: auto;
+
+    width: 20%;
+    background: #42A5F5;
+}
+
+.file-index > * {
+    margin: 10px;
+}
+
+.file
+{
+    display: block;
+    text-decoration: none;
+    color: #0D47A1;
+}
+
+.file .file-name
+{
+    font-size: 18px;
+    display: block;
+}
+
+.file .file-path
+{
+    font-size: 12px;
+    display: block;
+    color: #E3F2FD;
+}
+
+.file-content
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 80%;
+    height: 100%;
+
+    border: 0;
+    background: #E3F2FD;
+}

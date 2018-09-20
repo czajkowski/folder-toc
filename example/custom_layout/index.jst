@@ -19,10 +19,6 @@
 
     <h1><%= title %></h1>
 
-    <form class="search-form">
-      <input name="file-filter"/>
-    </form>
-
     <% for (var i=0, l=files.length; i<l; i++) { %>
       <% var file = files[i]; %>
       <a class="file" href="<%= file.path %>" target="file-content">
@@ -33,35 +29,5 @@
   </div>
 
   <iframe src="<%= files[0].path  %>" name="file-content" class="file-content"></iframe>
-
-  <script type="text/javascript" src="<%= name %>_assets/js/jquery.min.js"></script>
-  <script type="text/javascript">
-
-    (function(){
-
-      var $searchInput = $('input[name="file-filter"]'),
-        $files = $('.file');
-
-      function filter(txt){
-        $files.each(function(){
-          var $this = $(this);
-          if (!filter || $this.find('.file-path').html().indexOf(txt) >= 0){
-            $this.show();
-          } else {
-            $this.hide();
-          }
-        });
-      }
-
-      $searchInput.on('keyup', function(){
-        filter($searchInput.val());
-      });
-
-
-      $searchInput.val('');
-
-    })();
-
-  </script>
 </body>
 </html>
