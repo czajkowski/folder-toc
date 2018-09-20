@@ -75,5 +75,5 @@ Table of content file title.
 
 ## Custom templates
 
-If you would like to create a custom template for the table of content copy and customize the contents of the '/reqources/custom' directory.
+If you would like to create a custom template for the table of content copy and customize the contents of the '/resources/custom' directory.
 
