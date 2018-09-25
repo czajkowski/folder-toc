@@ -18,7 +18,7 @@ module.exports = function (source, options) {
 
   config = _.extend({}, defaults, _.pick(options || {}, _.keys(defaults)));
 
-  config.templateDir = path.join(__dirname, config.templateDir);
+  config.templateDir = config.templateDir;
   config.templateFile = path.join(config.templateDir, config.templateFile);
   config.template = _.template(fs.readFileSync(config.templateFile).toString());
 
