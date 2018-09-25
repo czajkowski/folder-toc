@@ -1,6 +1,6 @@
 {
   "name": "folder-toc",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Creates an HTML table of content with links to files from a selected directory.",
   "main": "index.js",
   "scripts": {
