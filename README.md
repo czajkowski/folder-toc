@@ -1,19 +1,8 @@
 # folder-toc
 
-
 Creates an HTML table of content with links to files from a selected directory.
 
-## Example
-
-```
-npm run example
-```
-
-An table of content will be created within the /example directory.
-A custom template will be used.
-
 ## Usage
-
 
 ```javascript
 var folderToc = require("folder-toc");
@@ -27,7 +16,7 @@ This will create a table of content for all files in the docs directory.
 ```javascript
 folderToc("target_directory", {
     name: 'index.html',
-    templateDir: './resources/classic',
+    templateDir: path(__dirname, 'resources/classic'),
     templateFile: 'index.jst',
     filter: '*.*',
     title: 'Files'
@@ -77,3 +66,12 @@ Table of content file title.
 
 If you would like to create a custom template for the table of content copy and customize the contents of the '/resources/custom' directory.
 
+## Example
+
+Creaste a table of content within the /example directory.
+
+```
+cd example
+npm install
+npm run example
+```

@@ -1,7 +1,7 @@
 var path = require('path');
-var folderToc = require("..");
+var folderToc = require("folder-toc");
 
-folderToc("example", {
+folderToc(".", {
   name: 'index.html',
   templateDir: path.join(__dirname, 'custom_layout'),
   filter: '*.*',

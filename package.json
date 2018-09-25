@@ -4,7 +4,6 @@
   "description": "Creates an HTML table of content with links to files from a selected directory.",
   "main": "index.js",
   "scripts": {
-    "example": "node example/index.js"
   },
   "repository": {
     "type": "git",
