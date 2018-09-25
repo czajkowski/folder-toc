@@ -68,7 +68,7 @@ If you would like to create a custom template for the table of content copy and 
 
 ## Example
 
-Creaste a table of content within the /example directory.
+Create a table of content within the /example directory.
 
 ```
 cd example
