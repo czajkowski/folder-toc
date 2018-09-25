@@ -5,7 +5,7 @@ var fs = require('fs-extra');
 
 var defaults = {
   name : 'index.html',
-  templateDir: 'resources/classic',
+  templateDir: path.join(__dirname, 'resources/classic'),
   templateFile: 'index.jst',
   filter: '*.*',
   title: 'Files'
